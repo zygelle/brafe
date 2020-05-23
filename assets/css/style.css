@@ -1,8 +1,8 @@
 /*MENU
 0 - Geral
 1 - Menu
-2 - Div Home
-3 - Section História
+2 - Home
+3 - Apresentation section
 4 - Section Info
 5 - Section Lojas
 6 - Section Assine
@@ -36,11 +36,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 15%;
-    background: #333;
+    background: var(--preto-secundario);
+}
+
+.menu-logo {
+    cursor: pointer;
 }
 
 .menu-nav li, a {
-    padding: 5px;
+    padding: 0 5px;
     font-family: Georgia, serif;
     color: var(--branco-primario);
     display: inline-block;
@@ -60,3 +64,84 @@ header {
     background: var(--branco-primario);
 }
 
+/* 2 - Home */
+
+.home {
+    background-image: url(../img/bg-intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15% 0;
+    font-family: Georgia, serif;
+    color: var(--branco-primario);
+    text-align: center;
+}
+
+.home h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.home h1::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 20px;
+    margin: 10px auto;
+    background-color: var(--branco-primario);
+}
+
+.home p {
+    font-style: italic;
+}
+
+/* 3 - Apresentation section */
+
+.apresentation {
+    padding: 60px 0;
+}
+
+.apresentation h2 {
+    text-align: center;
+    text-transform: initial;
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.coffee-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.image {
+    padding: 0 10px;
+}
+
+.image h3 {
+    background-color: var(--preto-secundario);
+    padding: 5px;
+    width: 190px;
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: var(--branco-primario);
+    position: relative;
+    top: -25px;
+}
+
+.apresentation-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentation-text p {
+    text-align: center;
+    width: 400px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
