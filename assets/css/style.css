@@ -3,7 +3,7 @@
 1 - Menu
 2 - Home
 3 - Apresentation section
-4 - Section Info
+4 - Informations section
 5 - Section Lojas
 6 - Section Assine
 7 - Footer
@@ -21,6 +21,10 @@
     --cinza-primario: #e7e4d8;
 
     --cinza-footer: #d6d3c8;
+
+    --marrom-primario: #E9E5D9;
+
+    --marrom-secundario: #B8B4AB;
 }
 
 * {
@@ -144,4 +148,94 @@ header {
     width: 400px;
     font-family: Georgia, serif;
     font-style: italic;
+}
+
+/* 4 - Informations section */
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: var(--marrom-primario);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.states {
+    margin: 0 20px;
+}
+
+.states .info-paulista::before {
+    display: block;
+    content: '';
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid var(--cinza-primario);
+    box-shadow: 0 0 0 8px #532a00;
+    background: #532a00;
+    width: 100px;
+    height: 100px;
+}
+.states .info-carioca::before {
+    display: block;
+    content: '';
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid var(--cinza-primario);
+    box-shadow: 0 0 0 8px #da7522;
+    background: #da7522;
+    width: 100px;
+    height: 100px;
+}
+.states .info-mineiro::before {
+    display: block;
+    content: '';
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid var(--cinza-primario);
+    box-shadow: 0 0 0 8px #e4b438;
+    background-color: #e4b438;
+    width: 100px;
+    height: 100px;
+}
+
+.states h2 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.states p {
+    font-family: Georgia, serif;
+    font-size: 0.85em;
+    width: 300px;
+}
+
+.info-button {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid var(--preto-secundario);
+    width: 180px;
+    padding: 15px;
+    margin-top: 60px;
+    color: var(--preto-primario);
+    transition: 0.4s;
+}
+
+.info-button:hover {
+    color: var(--cinza-primario);
+    transition: 0.4s;
+    background: var(--preto-secundario);
 }
