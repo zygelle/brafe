@@ -159,6 +159,8 @@ header {
     align-items: center;
     padding: 60px 0;
     background-color: var(--marrom-primario);
+    border-top: 3px solid var(--marrom-secundario);
+    border-bottom: 3px solid var(--marrom-secundario);
 }
 
 .content {
