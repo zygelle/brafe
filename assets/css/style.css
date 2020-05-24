@@ -5,7 +5,7 @@
 3 - Apresentation section
 4 - Informations section
 5 - Stores Section
-6 - Section Assine
+6 - Newsletter Section
 7 - Footer
 */
 
@@ -287,3 +287,54 @@ header {
     transition: 0.4s;
     background: var(--preto-secundario);
 }
+
+/* 6 - Newsletter Section */
+
+.newsletter {
+    background: var(--cinza-primario);
+}
+
+.newsletter-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.newsletter-info {
+    margin-right: 20%;
+}
+
+.newsletter-info h2 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newsletter-info p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.newsletter input {
+    border: 3px solid var(--preto-secundario);
+    background: none;
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding: 10px;
+}
+
+.newsletter button {
+    border: 3px solid var(--preto-secundario);
+    background: var(--preto-secundario);
+    color: var(--branco-primario);
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: -10px;
+}
+
