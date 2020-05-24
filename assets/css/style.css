@@ -254,12 +254,36 @@ header {
 .shop-items {
     display: flex;
     justify-content: center;
+    margin: 30px 0;
 }
 
 .store-txt {
     padding: 0 20px;
 }
 
-.store-txt h2{
+.store-txt h2 {
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
 
+.store-txt p {
+    width: 300px;
+    font-size: 0.75em;
+}
+
+.store-txt a {
+    color: var(--preto-primario);
+    border: 3px solid var(--preto-secundario);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.store-txt a:hover {
+    color: var(--cinza-primario);
+    transition: 0.4s;
+    background: var(--preto-secundario);
 }
