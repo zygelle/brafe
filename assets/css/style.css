@@ -53,10 +53,12 @@ header {
     font-family: Georgia, serif;
     color: var(--branco-primario);
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu-nav li a::after {
     display: block;
+    text-decoration: none;
     content: '';
     height: 2.5px;
     width: 0px;
@@ -67,6 +69,7 @@ header {
 .menu-nav li a:hover::after {
     width: 100%;
     background: var(--branco-primario);
+    text-decoration: none;
 }
 
 /* 2 - Home */
