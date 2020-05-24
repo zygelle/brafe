@@ -4,7 +4,7 @@
 2 - Home
 3 - Apresentation section
 4 - Informations section
-5 - Section Lojas
+5 - Stores Section
 6 - Section Assine
 7 - Footer
 */
@@ -49,6 +49,7 @@ header {
 
 .menu-nav li, a {
     padding: 0 5px;
+    text-decoration: none;
     font-family: Georgia, serif;
     color: var(--branco-primario);
     display: inline-block;
@@ -240,4 +241,25 @@ header {
     color: var(--cinza-primario);
     transition: 0.4s;
     background: var(--preto-secundario);
+}
+
+/* 5 - Stores Section */
+
+.lojas {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.shop-items {
+    display: flex;
+    justify-content: center;
+}
+
+.store-txt {
+    padding: 0 20px;
+}
+
+.store-txt h2{
+
 }
