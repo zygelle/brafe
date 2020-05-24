@@ -359,6 +359,10 @@ footer {
 /* tablet */
 
 @media only screen and (max-width: 768px) {
+
+    .home h1 {
+        color: red;
+    }
     /* 3 - Apresentation section */
     .image img {
         width: 100%;
@@ -380,5 +384,88 @@ footer {
     /* 6 - Newsletter Section */
     form {
         display: flex;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .home h1 {
+        color: blue;
+    }
+
+    /* 1 - Header */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-logo {
+        padding-bottom: 20px;
+    }
+
+    /*  3 - Apresentation Section */
+    .coffee-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image h3 {
+        margin: 0 auto;
+    }
+
+    /* 4 - Informations section */
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .states p {
+        width: 215px;
+    }
+
+    /* 5 - Stores Section */
+    .lojas {
+        margin: 0 10%;
+    }
+    .shop-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store-txt {
+        padding: 10px 0;
+    }
+
+    /* 6 - Newsletter Section */    
+    .newsletter-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-info {
+        padding-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter button {
+        width: 150px;
+        margin: 0;
+    }
+
+    /* 7 - Footer */
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-items p {
+        padding-bottom: 20px;
     }
 }
