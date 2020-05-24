@@ -355,3 +355,30 @@ footer {
     font-size: 1.125em;
     font-family: Georgia, serif;
 }
+
+/* tablet */
+
+@media only screen and (max-width: 768px) {
+    /* 3 - Apresentation section */
+    .image img {
+        width: 100%;
+    }
+
+    /* 4 - Informations section */
+    .states p {
+        width: 100%;
+    }
+
+    /* 5 - Stores Section */
+    .lojas {
+        padding: 20px;
+    }
+    .store-image img {
+        width: 100%;
+    }
+
+    /* 6 - Newsletter Section */
+    form {
+        display: flex;
+    }
+}
