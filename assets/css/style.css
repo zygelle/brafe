@@ -296,13 +296,9 @@ header {
 
 .newsletter-items {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
-}
-
-.newsletter-info {
-    margin-right: 20%;
 }
 
 .newsletter-info h2 {
@@ -338,3 +334,20 @@ header {
     margin-left: -10px;
 }
 
+/* 7 - Footer */
+
+footer {
+    background: var(--cinza-footer);
+    padding: 40px 0;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-items p {
+    font-size: 1.125em;
+    font-family: Georgia, serif;
+}
