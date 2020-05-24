@@ -41,6 +41,7 @@ header {
     align-items: center;
     padding: 20px 15%;
     background: var(--preto-secundario);
+    text-decoration: none;
 }
 
 .menu-logo {
@@ -49,7 +50,6 @@ header {
 
 .menu-nav li, a {
     padding: 0 5px;
-    text-decoration: none;
     font-family: Georgia, serif;
     color: var(--branco-primario);
     display: inline-block;
