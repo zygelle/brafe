@@ -359,6 +359,10 @@ footer {
 /* tablet */
 
 @media only screen and (max-width: 768px) {
+    .menu-nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
     .home h1 {
         color: red;
@@ -390,6 +394,11 @@ footer {
 /* mobile */
 
 @media only screen and (max-width: 600px) {
+    .menu-nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     .home h1 {
         color: blue;
     }
